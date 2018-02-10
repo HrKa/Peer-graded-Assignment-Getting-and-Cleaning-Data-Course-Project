@@ -1,0 +1,184 @@
+# CodeBook
+
+In this book all columns in tidy.txt are summarized.
+
+## In the dataset are 6 rows with the average of the respective activity:
+
+ - WALKING
+ - WALKING_UPSTAIRS
+ - WALKING_DOWNSTAIRS
+ - SITTING
+ - STANDING
+ - LAYING
+
+## The dataset has 2+66 columns:
+
+ - subject: ID of the subject
+ - activity_label: Type of activity that was measured
+
+  Measurement columns:
+
+ - tBodyAccMeanX
+ - tBodyAccMeanY
+ - tBodyAccMeanZ
+ - tBodyAccStdX
+ - tBodyAccStdY
+ - tBodyAccStdZ
+ - tGravityAccMeanX
+ - tGravityAccMeanY
+ - tGravityAccMeanZ
+ - tGravityAccStdX
+ - tGravityAccStdY
+ - tGravityAccStdZ
+ - tBodyAccJerkMeanX
+ - tBodyAccJerkMeanY
+ - tBodyAccJerkMeanZ
+ - tBodyAccJerkStdX
+ - tBodyAccJerkStdY
+ - tBodyAccJerkStdZ
+ - tBodyGyroMeanX
+ - tBodyGyroMeanY
+ - tBodyGyroMeanZ
+ - tBodyGyroStdX
+ - tBodyGyroStdY
+ - tBodyGyroStdZ
+ - tBodyGyroJerkMeanX
+ - tBodyGyroJerkMeanY
+ - tBodyGyroJerkMeanZ
+ - tBodyGyroJerkStdX
+ - tBodyGyroJerkStdY
+ - tBodyGyroJerkStdZ
+ - tBodyAccMagMean
+ - tBodyAccMagStd
+ - tGravityAccMagMean
+ - tGravityAccMagStd
+ - tBodyAccJerkMagMean
+ - tBodyAccJerkMagStd
+ - tBodyGyroMagMean
+ - tBodyGyroMagStd
+ - tBodyGyroJerkMagMean
+ - tBodyGyroJerkMagStd
+ - fBodyAccMeanX
+ - fBodyAccMeanY
+ - fBodyAccMeanZ
+ - fBodyAccStdX
+ - fBodyAccStdY
+ - fBodyAccStdZ
+ - fBodyAccMeanFreqX
+ - fBodyAccMeanFreqY
+ - fBodyAccMeanFreqZ
+ - fBodyAccJerkMeanX
+ - fBodyAccJerkMeanY
+ - fBodyAccJerkMeanZ
+ - fBodyAccJerkStdX
+ - fBodyAccJerkStdY
+ - fBodyAccJerkStdZ
+ - fBodyAccJerkMeanFreqX
+ - fBodyAccJerkMeanFreqY
+ - fBodyAccJerkMeanFreqZ
+ - fBodyGyroMeanX
+ - fBodyGyroMeanY
+ - fBodyGyroMeanZ
+ - fBodyGyroStdX
+ - fBodyGyroStdY
+ - fBodyGyroStdZ
+ - fBodyGyroMeanFreqX
+ - fBodyGyroMeanFreqY
+ - fBodyGyroMeanFreqZ
+ - fBodyAccMagMean
+ - fBodyAccMagStd
+ - fBodyAccMagMeanFreq
+ - fBodyBodyAccJerkMagMean
+ - fBodyBodyAccJerkMagStd
+ - fBodyBodyAccJerkMagMeanFreq
+ - fBodyBodyGyroMagMean
+ - fBodyBodyGyroMagStd
+ - fBodyBodyGyroMagMeanFreq
+ - fBodyBodyGyroJerkMagMean
+ - fBodyBodyGyroJerkMagStd
+ - fBodyBodyGyroJerkMagMeanFreq
+
+## Units of variables:
+
+ - activity_label: factor
+ - subject: integer
+
+- tBodyAccMeanX: numeric
+- tBodyAccMeanY: numeric
+- tBodyAccMeanZ: numeric
+- tBodyAccStdX: numeric
+- tBodyAccStdY: numeric
+- tBodyAccStdZ: numeric
+- tGravityAccMeanX: numeric
+- tGravityAccMeanY: numeric
+- tGravityAccMeanZ: numeric
+- tGravityAccStdX: numeric
+- tGravityAccStdY: numeric
+- tGravityAccStdZ: numeric
+- tBodyAccJerkMeanX: numeric
+- tBodyAccJerkMeanY: numeric
+- tBodyAccJerkMeanZ: numeric
+- tBodyAccJerkStdX: numeric
+- tBodyAccJerkStdY: numeric
+- tBodyAccJerkStdZ: numeric
+- tBodyGyroMeanX: numeric
+- tBodyGyroMeanY: numeric
+- tBodyGyroMeanZ: numeric
+- tBodyGyroStdX: numeric
+- tBodyGyroStdY: numeric
+- tBodyGyroStdZ: numeric
+- tBodyGyroJerkMeanX: numeric
+- tBodyGyroJerkMeanY: numeric
+- tBodyGyroJerkMeanZ: numeric
+- tBodyGyroJerkStdX: numeric
+- tBodyGyroJerkStdY: numeric
+- tBodyGyroJerkStdZ: numeric
+- tBodyAccMagMean: numeric
+- tBodyAccMagStd: numeric
+- tGravityAccMagMean: numeric
+- tGravityAccMagStd: numeric
+- tBodyAccJerkMagMean: numeric
+- tBodyAccJerkMagStd: numeric
+- tBodyGyroMagMean: numeric
+- tBodyGyroMagStd: numeric
+- tBodyGyroJerkMagMean: numeric
+- tBodyGyroJerkMagStd: numeric
+- fBodyAccMeanX: numeric
+- fBodyAccMeanY: numeric
+- fBodyAccMeanZ: numeric
+- fBodyAccStdX: numeric
+- fBodyAccStdY: numeric
+- fBodyAccStdZ: numeric
+- fBodyAccMeanFreqX: numeric
+- fBodyAccMeanFreqY: numeric
+- fBodyAccMeanFreqZ: numeric
+- fBodyAccJerkMeanX: numeric
+- fBodyAccJerkMeanY: numeric
+- fBodyAccJerkMeanZ: numeric
+- fBodyAccJerkStdX: numeric
+- fBodyAccJerkStdY: numeric
+- fBodyAccJerkStdZ: numeric
+- fBodyAccJerkMeanFreqX: numeric
+- fBodyAccJerkMeanFreqY: numeric
+- fBodyAccJerkMeanFreqZ: numeric
+- fBodyGyroMeanX: numeric
+- fBodyGyroMeanY: numeric
+- fBodyGyroMeanZ: numeric
+- fBodyGyroStdX: numeric
+- fBodyGyroStdY: numeric
+- fBodyGyroStdZ: numeric
+- fBodyGyroMeanFreqX: numeric
+- fBodyGyroMeanFreqY: numeric
+- fBodyGyroMeanFreqZ: numeric
+- fBodyAccMagMean: numeric
+- fBodyAccMagStd: numeric
+- fBodyAccMagMeanFreq: numeric
+- fBodyBodyAccJerkMagMean: numeric
+- fBodyBodyAccJerkMagStd: numeric
+- fBodyBodyAccJerkMagMeanFreq: numeric
+- fBodyBodyGyroMagMean: numeric
+- fBodyBodyGyroMagStd: numeric
+- fBodyBodyGyroMagMeanFreq: numeric
+- fBodyBodyGyroJerkMagMean: numeric
+- fBodyBodyGyroJerkMagStd: numeric
+- fBodyBodyGyroJerkMagMeanFreq
